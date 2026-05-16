@@ -1,861 +1,116 @@
-<!-- <!DOCTYPE html> -->
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shuning Zhang's personal homepage." />
   <title>Shuning Zhang | Ph.D. Student</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126939217-2');
-  </script>
-
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Varad Bhogayata | Software Developer" />
-  <meta property="og:description" content="Software Developer" />
-  <meta property="og:url" content="https://zhangsn19.github.io/" />
-  <meta property="og:site_name" content="Varad Bhogayata | Software Developer" />
-  <meta property="article:publisher" content="https://varadbhogayata.github.io/" />
-  <meta property="og:image" content="https://zhangsn19.github.io/examples/preview.JPG" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@shuning0128" />
-  <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
-  <meta name="twitter:description" content="Software Developer" />
-  <!-- <meta name="twitter:url" content="https://twitter.com/varad_bhogayata" /> -->
-  <meta name="author" content="Shuning Zhang" />
-  <!-- <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." /> -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
-
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/ShuningZhang.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
-          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
-        <a aria-label="Open Shuning's resume in a new tab" href="https://zhangsn19.github.io/assets/resume/Resume_Shuning_Zhang.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Shuning Zhang</a><span class="black-text">Ph.D. Student</span>
-    </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Shuning's Resume in a new tab"
-          href="https://zhangsn19.github.io/assets/resume/Resume_Shuning_Zhang.pdf" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Shuning Zhang.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Ph.D. student focusing on privacy and security issues in human-AI interaction.</h5>
-              <h5>Contact: (WeChat/Phone) 18540131367, (Email) Zhang.sn314@gmail.com </h5>
-            </div>
-            <div class="social">
-              Recent news:
-              <div class="news-list">
-                <ul>
-                  <li><strong>2026.1</strong> - Eight paper got accepted to CHI'26! Congrats to all collaborators! </li>
-                  <li><strong>2025.10</strong> - We won the Distinguished Paper Award for CCS 25 HAIPS workshop! Congrats to Ying, Jingruo and Simin! </li>
-                  <li><strong>2025.10</strong> - We won the Best Student Challenge Award for Ubicomp 25! Congrats to Ying, Qucheng and Owen! </li>
-                  <li><strong>2025.10</strong> - Happy to share that I will attend Ubicomp25 and CSCW25! See you at Espoo and Bergen! </li>
-                  <li><strong>2025.10</strong> - Happy to share that I will serve as PC member for IUI 26! </li>
-                  <li><strong>2025.10</strong> - Happy to share that I will serve as co-organizer for WellComp workshop@Ubicomp, and session chair for Ubisense workshop@Ubicomp! </li>
-                  <li><strong>2025.09</strong> - One paper got accepted to CSCW'25!  <a href="https://www.arxiv.org/abs/2507.06000">Read more...</a></li>
-                  <li><strong>2025.09</strong> - One paper got accepted to IMWUT'25! <a href="https://dl.acm.org/doi/pdf/10.1145/3749510">Read more...</a></li>
-                  <li><strong>2025.09</strong> - One paper got accepted to NeurIPS'25 LAW workshop! <a href="https://arxiv.org/pdf/2509.19041">Read more...</a></li>
-                  <li><strong>2025.08</strong> - Three paper got accepted to CCS'25 HAIPS workshop! Read more... <a href="https://arxiv.org/pdf/2508.07664">1️⃣</a><a href="https://arxiv.org/pdf/2508.07672">2️⃣</a><a href="https://arxiv.org/pdf/2508.07658">3️⃣</a></li>
-                  <li><strong>2025.08</strong> - One paper won <strong>Best Paper Candidate</strong> reward for IJCAI25 DDL workshop <a href="https://deepfake-workshop-ijcai2025.github.io/main/accepted_paper.html">Read more ..</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
+  <main class="site-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Shuning Zhang</p>
+        <h1>Privacy, security, and human-AI interaction.</h1>
+        <p class="lead">
+          Ph.D. student at Tsinghua University studying how people perceive, trust, and collaborate with AI systems.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:Zhang.sn314@gmail.com">Email</a>
+          <a href="/assets/resume/Resume_Shuning_Zhang.pdf">Resume</a>
+          <a href="https://github.com/zhangsn19">GitHub</a>
         </div>
+      </div>
+      <aside class="hero-card">
+        <img src="/assets/img/ShuningZhang.jpg" alt="Shuning Zhang portrait" />
+        <div class="card-body">
+          <h2>About</h2>
+          <p>I work on usable security, privacy UX, and collaborative AI systems.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="info-grid">
+      <article class="panel">
+        <h3>Recent News</h3>
+        <ul class="news-list">
+          <li>2026.01 - Eight papers accepted to CHI'26.</li>
+          <li>2025.10 - Best Student Challenge Award at Ubicomp 25.</li>
+          <li>2025.09 - Papers accepted to CSCW'25, IMWUT'25, and NeurIPS'25 LAW.</li>
+          <li>2025.08 - Papers accepted to CCS'25 HAIPS and IJCAI'25 DDL.</li>
+        </ul>
+      </article>
+      <article class="panel">
+        <h3>Research</h3>
+        <p>Human-AI co-creation, privacy policies, misinformation detection, deceptive speech, and AI-supported decision making.</p>
+      </article>
+      <article class="panel">
+        <h3>Contact</h3>
+        <p>Zhang.sn314@gmail.com</p>
+        <p>github.com/zhangsn19</p>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Selected Publications</p>
+        <h2>Recent papers and projects</h2>
+      </div>
+      <div class="pub-grid">
+        <article class="pub-card">
+          <img src="/assets/img/exploring.jpg" alt="Exploring collaboration paper cover" />
+          <h3>Exploring Collaboration Patterns and Strategies in Human-AI Co-creation Through the Lens of Agency</h3>
+          <p>CSCW'25</p>
+        </article>
+        <article class="pub-card">
+          <img src="/assets/img/opg.jpg" alt="Automated vehicle suggestions paper cover" />
+          <h3>Actual Achieved Gain and Optimal Perceived Gain: Modeling Human Take-over Decisions Towards Automated Vehicles' Suggestions</h3>
+          <p>CHI'25</p>
+        </article>
+        <article class="pub-card">
+          <img src="/assets/img/captcha.jpg" alt="PrivCAPTCHA paper cover" />
+          <h3>PrivCAPTCHA: Interactive CAPTCHA to Facilitate Effective Comprehension of APP Privacy Policy</h3>
+          <p>CHI'25</p>
+        </article>
+        <article class="pub-card">
+          <img src="/assets/img/darkpattern.jpg" alt="Voice characteristics paper cover" />
+          <h3>The Manipulative Power of Voice Characteristics: Investigating Deceptive Patterns in Mandarin Chinese Female Synthetic Speech</h3>
+          <p>IMWUT'25</p>
+        </article>
+        <article class="pub-card">
+          <img src="/assets/img/privacyvaluation.jpg" alt="Privacy valuation paper cover" />
+          <h3>Evaluating the Privacy Valuation of Personal Data on Smartphones</h3>
+          <p>IMWUT'24</p>
+        </article>
+        <article class="pub-card">
+          <img src="/assets/img/squeezIn.png" alt="Squeez'In paper cover" />
+          <h3>Squeez'In: Private authentication on smartphones based on squeezing gestures</h3>
+          <p>CHI'23</p>
+        </article>
       </div>
     </section>
 
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-        <!-- <blockquote>
-          <h2>
-            A Software Developer with a passion for Backend Development and Artificial Intelligence.
-
-          </h2>
-        </blockquote> -->        
-        <p>
-          I am a Ph.D. candidate in Computer Science at Tsinghua University. My research centers on <b>the privacy and security aspects of Human-AI Interaction</b>.
-
-          My work has been published in premier Human-Computer Interaction (HCI) venues, such as CHI, CSCW, and IMWUT, in addition to top-tier conferences in security (CCS) and artificial intelligence (IJCAI). In recognition of my contributions, my research <b>received a Best Paper Candidate Award at IJCAI'25 DDL workshop</b>. I actively contribute to the academic community by serving as a Session Chair for CHI'25 and as a reviewer for conferences including CSCW, Ubicomp, and IUI.
-
-         Previously, I completed my undergraduate studies in Computer Science at Tsinghua University, advised by Professor Yuanchun Shi and Professor Xin Yi. I have also undertaken research internships at Stanford University with Professor James A. Landay, the University of Washington with Professor Anind K. Dey and Professor Jennifer Mankoff, and the PLUS Lab at UCLA under the supervision of Professor Nanyun Peng.
-        </p>
-        <!-- <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, Bash</li>
-            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-            <li><b>Libraries:</b> NumPy, Pandas, OpenCV</li>
-            <li><b>Frameworks:</b> Flask, Django, Node.js, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</li>
-            <li><b>Tools & Technologies:</b> Git, Docker, AWS, GCP, Heroku, JIRA</li>
-          </ul>
-          
-        </p> -->
-          
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
-        <p>
-          <b>Looking forward to a visiting position or collaborations from all around the world!</b> I currently have collaborations with researchers from Stanford University, University of Washington, University of Melbourne, University of Luxembourg, University of New South Wales, Aalto University, Beihang University, Southeast University, etc. </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Education and internships</h2>
       </div>
-    </section>
-
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
-
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.stanford.edu/" target="_blank"><img alt="Stanford logo"
-                    src="/assets/img/stanford_university.jpg" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.stanford.edu/" target="_blank"
-                      class="teal-text hoverline">Stanford University</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Designed REACTGENIE, a typescript framework for developers to facilitate multimodal apps’ building (CHI24).
-              </li>
-              <li>
-                <b>Publication:</b> ReactGenie: A development framework for complex multimodal interactions using large language models
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Jun - Sep 2022 | Stanford University, U.S. </span>
-          </div>
-        </div>
-
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.washington.edu/" target="_blank"><img alt="uw logo"
-                    src="/assets/img/uw.jpg" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.washington.edu/" target="_blank"
-                      class="teal-text hoverline">University of Washington</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Proposed adaptive neural networks on physiological signals for emotion classification.
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Jun - Sep 2022 | University of Washington, U.S.</span>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <img alt="UCLA logo" src="/assets/img/UCLA.png" class="responsive-img center-block" />
-
-              </div>
-
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#experience" class="teal-text hoverline">UCLA</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Research Intern</div>
-            <ul>
-              <li>
-                Implemented template based NER model and benchmarked the model’s transferability (ACL23)
-              </li>
-              <li>
-                <b>Publication:</b> TAGPRIME: A unified framework for relational structure extraction
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Jun - Sep 2021 | UCLA, U.S.</span>
-          </div>
-        </div>
-
-        <!-- Experience 3 -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
-                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
-                      class="teal-text hoverline">CIGNEX
-                      Datamatics </a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Project Trainee</div>
-            <ul>
-              <li>
-                Designed a library management system for a local library, where we undertook activities like requirement
-                elicitation, preparing Data Flow
-                and Entity-Relationship diagrams.
-              </li>
-              <li>
-                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
-                Processing and Support Vector
-                Machines with 96% accuracy on the company’s data.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Scikit-learn, NLTK
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>June 2017 - July 2017 | Ahmedabad, India</span>
-          </div>
-        </div>
-
-      </div> -->
-    </section>
-
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/captcha.jpg" style="height: 100%; width: match" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">PrivCAPTCHA: Interactive CAPTCHA to Facilitate Effective Comprehension of APP Privacy Policy<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  CHI'25
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Designed CAPTCHA-based interactive visualization of mobile privacy policies.</li>
-                  <li>Developed automatic conversion algorithms from privacy policies to structured representations.</li>
-                  <li>Uncovered Chinese users' perspectives towards mobile privacy policies.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://dl.acm.org/doi/pdf/10.1145/3706598.3713928" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/opg.jpg" style="height: match; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Actual Achieved Gain and Optimal Perceived Gain: Modeling Human Take-over Decisions Towards Automated Vehicles’ Suggestions<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  CHI'25
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Designed the first quantitative metric for design quality in take-overs.</li>
-                  <li>Modeled human take-over design quality across several scenarios.</li>
-                  <li>Designed multimodal interventions to improve design quality.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://dl.acm.org/doi/pdf/10.1145/3706598.3713707" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/darkpattern.jpg"
-                style="height: match; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">The Manipulative Power of Voice Characteristics: Investigating Deceptive Patterns in Mandarin Chinese Female Synthetic Speech<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  IMWUT'25
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Investigated voice characteristics-based dark patterns.</li>
-                  <li>Designed three types of dark aims for instantiating dark patterns.</li>
-                  <li>Instantiated voice characteristics based attacks in voice shopping and question-answering scenarios.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit" href="https://dl.acm.org/doi/pdf/10.1145/3749510" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/exploring.jpg" style="height: match; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Exploring Collaboration Patterns and Strategies in Human-AI Co-creation through the Lens of Agency: A Scoping Review of the Top-tier HCI Literature<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  CSCW'25
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Summarized the framework containing context, patterns and distributions, control mechanisms, application and domains, and challenges.</li>
-                  <li>Proposed actionable implications for designers and researchers.</li>
-                  <li>Designed a framework with agency dimensions.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit"
-                    href="https://doi.org/doi/pdf/10.1145/3757594" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/privacyvaluation.jpg" style="height: match; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Evaluating the Privacy Valuation of Personal Data on Smartphones<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  IMWUT'24
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Evaluated smartphone's data privacy through bidding mechanisms for the first time.</li>
-                  <li>Constructed a data regression model based on price-related factors.</li>
-
-                </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit" href="https://dl.acm.org/doi/pdf/10.1145/3678509"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/squeezIn.png" style="height: 100%; width: match" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Squeez'In: Private authentication on smartphones based on squeezing gestures<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  CHI'23
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Quick Look</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Designed Squeez'In, a private authentication technique on smartphones.</li>
-                  <li>Squeez'In achieved 99.3% accuracy and 0.93 F1-score.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit" href="https://dl.acm.org/doi/pdf/10.1145/3544548.3581419/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Academic Experience</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            Served as the session chair for CHI'25.
-          </div>
-          <div class="card-content">
-            Served as reviewers for CHI'25, CSCW'25, IMWUT'25, IUI'25, CSCW'24, IMWUT'24, ISS'24.
-          </div>
-          <div class="card-content">
-            Served as PC member for ChineseCHI'24.
-          </div>
-          <div class="card-content">
-            Served as SV for CSCW'25 and IEEE VR'23.
-          </div>
-        </div>
-      </div>
-
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.cs.tsinghua.edu.cn/" target="_blank" class="teal-text hoverline">Tsinghua University</a></span>
-                </p>
-                <p class="brown-text">Beijing, China</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Computer Science      
-                  <br>
-                  <b>GPA: </b>3.86/4.00
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Human-Computer Interaction</li>
-                    <li>Artificial Neural Network</li>
-                    <li>Introductory to Artificial Intelligence</li>                    
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-
-            
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.insc.tsinghua.edu.cn/" target="_blank" class="teal-text hoverline">Tsinghua University</a></span>
-                </p>
-                <p class="brown-text">Beijing, China</p>
-                <p>
-                  <b>Degree: </b>(Currently) Ph.D. of Computer Science
-                  <br>
-                  <b>GPA: </b>3.96/4.00
-                </p>
-
-                <ul>
-                  <p>
-                    
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Varad">+86-18540131367</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:vbhogayata@gmail.com"
-              class="hoverline">Zhang.sn314@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on GitHub" href="http://github.com/varadbhogayata" target="_blank"
-            data-position="top" data-tooltip="View Varad on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="http://github.com/varadbhogayata" class="hoverline"
-              target="_blank">github.com/zhangsn19</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on LinkedIn" href="https://scholar.google.com/citations?user=MOmHKCAAAAAJ" target="_blank"
-            data-position="top" data-tooltip="Google Scholar"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Google Scholar" href="https://scholar.google.com/citations?user=MOmHKCAAAAAJ"
-              class="hoverline" target="_blank">My Google Scholar</a></a>
-        </p>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Tsinghua University</h3>
+          <p>Ph.D. student, Institute for Network Sciences and Cyberspace · 2023-present</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Tsinghua University</h3>
+          <p>B.S. in Computer Science and Technology · 2019-2023</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Stanford, UW, UCLA</h3>
+          <p>Research internships on multimodal systems, emotion classification, and NER transferability.</p>
+        </article>
       </div>
     </section>
   </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Developer", "Advisor", "Researcher"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
 </body>
-
 </html>

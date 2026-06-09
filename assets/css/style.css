@@ -29,6 +29,31 @@ a { color: inherit; }
   padding: 56px 0 48px;
 }
 
+.job-market-banner {
+  margin-bottom: 28px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(53, 92, 125, 0.28);
+  background: rgba(53, 92, 125, 0.1);
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.job-market-banner strong {
+  color: var(--accent);
+}
+
+.job-market-banner a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.job-market-banner a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1.2fr 0.9fr;
@@ -149,6 +174,15 @@ h1 {
   padding-left: 22px;
   display: grid;
   gap: 12px;
+}
+
+.awards-list {
+  margin: 0;
+  padding-left: 22px;
+  display: grid;
+  gap: 12px;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .section {

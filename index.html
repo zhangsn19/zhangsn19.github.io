@@ -8,134 +8,195 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
-  <main class="site-shell">
-    <div class="job-market-banner" role="status">
-      <strong>I'm on the job market</strong> — open to faculty and industry research positions. <a href="mailto:Zhang.sn314@gmail.com">Get in touch</a> · <a href="/assets/resume/Resume_Shuning_Zhang.pdf">Resume</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top">Shuning Zhang</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="page">
+    <section class="intro">
+      <div class="profile-photo">
+        <img src="/assets/img/ShuningZhang.jpg" alt="Shuning Zhang" />
+      </div>
+      <div class="intro-copy">
+        <p class="kicker">Ph.D. Student, Tsinghua University</p>
+        <h1>Shuning Zhang</h1>
+        <p class="summary">
+          I am a Ph.D. student at the Institute for Network Sciences and Cyberspace,
+          Tsinghua University. My research focuses on human-AI interaction, with an
+          emphasis on safety, privacy, and security. I study how people perceive and
+          collaborate with AI systems, then develop human-in-the-loop techniques to
+          make these systems more usable and trustworthy.
+        </p>
+        <p class="summary">
+          I am advised by Prof. Xin Yi. During my undergraduate study at Tsinghua, I
+          worked with Prof. Yuanchun Shi and Prof. Xin Yi. I have also worked with
+          research groups at Stanford University, the University of Washington, and UCLA.
+        </p>
+        <div class="contact-links" aria-label="Contact links">
+          <a href="mailto:Zhang.sn314@gmail.com">Email</a>
+          <a href="/assets/resume/Resume_Shuning_Zhang.pdf">CV</a>
+          <a href="https://scholar.google.com/citations?user=MOmHKCAAAAAJ&hl=zh-CN&authuser=1">Google Scholar</a>
+          <a href="https://github.com/zhangsn19">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="notice">
+      <strong>Job market:</strong> I am open to faculty and industry research positions.
+      Please feel free to get in touch by email.
     </div>
 
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Shuning Zhang</p>
-        <h1>Privacy, security, and human-AI interaction.</h1>
-        <p class="lead">
-          Ph.D. student at Tsinghua University studying how people perceive, trust, and collaborate with AI systems, advised by Prof. Xin Yi. During my bachelor's study, I worked with Prof. Yuanchun Shi and Prof. Xin Yi at Tsinghua University. During summer internships, I worked with Prof. James Landay at Stanford University and Prof. Anind K. Dey at the University of Washington. I also collaborate with researchers from the University of Luxembourg, the University of Melbourne, National University of Singapore, King's College London, UNSW, UIUC, and more on HCI.
-        </p>
-        <div class="hero-links">
-          <a href="mailto:Zhang.sn314@gmail.com">Email</a>
-          <a href="/assets/resume/Resume_Shuning_Zhang.pdf">Resume</a>
-          <a href="https://github.com/zhangsn19">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=MOmHKCAAAAAJ&hl=zh-CN&authuser=1">Google Scholar</a>
-        </div>
+    <section class="content-grid">
+      <div class="main-column">
+        <section id="research" class="section">
+          <h2>Research Interests</h2>
+          <p>
+            My work sits at the intersection of human-computer interaction, usable
+            privacy and security, and AI systems. Recent projects study privacy-aware
+            web agents, human-AI co-creation, privacy policy comprehension, synthetic
+            speech deception, misinformation detection, and AI-assisted decision making.
+          </p>
+        </section>
+
+        <section id="publications" class="section">
+          <h2>Selected Publications</h2>
+          <ol class="publication-list">
+            <li>
+              <span class="pub-title">PrivWeb: Unobtrusive and Content-aware Privacy Protection for Web Agents</span>
+              <span class="pub-authors"><strong>Shuning Zhang*</strong>, Yutong Jiang*, Rongjun Ma, Yuting Yang, Mingyao Xu, Zhixin Huang, Xin Yi, Hewu Li</span>
+              <span class="pub-venue">CHI 2026</span>
+            </li>
+            <li>
+              <span class="pub-title">Exploring Collaboration Patterns and Strategies in Human-AI Co-creation Through the Lens of Agency: A Scoping Review of Top-tier HCI Literature</span>
+              <span class="pub-authors"><strong>Shuning Zhang</strong>, Hui Wang, Xin Yi</span>
+              <span class="pub-venue">CSCW 2025</span>
+            </li>
+            <li>
+              <span class="pub-title">Actual Achieved Gain and Optimal Perceived Gain: Modeling Human Take-over Decisions Towards Automated Vehicles' Suggestions</span>
+              <span class="pub-authors"><strong>Shuning Zhang</strong>, Xin Yi, Shixuan Li, Chuye Hong, Gujun Chen, Jiarui Liu, Xueyang Wang, Yongquan "Owen" Hu, Yuntao Wang, Hewu Li</span>
+              <span class="pub-venue">CHI 2025</span>
+            </li>
+            <li>
+              <span class="pub-title">PrivCAPTCHA: Interactive CAPTCHA to Facilitate Effective Comprehension of APP Privacy Policy</span>
+              <span class="pub-authors"><strong>Shuning Zhang</strong>, Xin Yi, Shixuan Li, Haobin Xing, Hewu Li</span>
+              <span class="pub-venue">CHI 2025</span>
+            </li>
+            <li>
+              <span class="pub-title">The Manipulative Power of Voice Characteristics: Investigating Deceptive Patterns in Mandarin Chinese Female Synthetic Speech</span>
+              <span class="pub-authors"><strong>Shuning Zhang*</strong>, Han Chen*, Yabo Wang, Yiqun Xu, Jiaqi Bai, Yuanyuan Wu, Shixuan Li, Xin Yi, Hewu Li</span>
+              <span class="pub-venue">IMWUT 2025</span>
+            </li>
+            <li>
+              <span class="pub-title">Towards Aligning Personalized Conversational Recommendation Agents with Users' Privacy Preferences</span>
+              <span class="pub-authors"><strong>Shuning Zhang</strong>, Ying Ma, Jingruo Chen, Simin Li, Xin Yi, Hewu Li</span>
+              <span class="pub-venue">CCS 2025 HAIPS Workshop, Distinguished Paper</span>
+            </li>
+            <li>
+              <span class="pub-title">SituGuard: LLM-based Fine-grained Smart Glass Privacy Control in Home Environments</span>
+              <span class="pub-authors"><strong>Shuning Zhang</strong>, Ying Ma, Qucheng Zang, Yongquan Hu</span>
+              <span class="pub-venue">Ubicomp 2025, Best Student Challenge Award</span>
+            </li>
+            <li>
+              <span class="pub-title">Evaluating the Privacy Valuation of Personal Data on Smartphones</span>
+              <span class="pub-authors">Lihua Fan*, <strong>Shuning Zhang*</strong>, Yan Kong, Xin Yi, Yang Wang, Xuhai "Orson" Xu, Chun Yu, Hewu Li, Yuanchun Shi</span>
+              <span class="pub-venue">IMWUT 2024</span>
+            </li>
+            <li>
+              <span class="pub-title">Squeez'In: Private Authentication on Smartphones based on Squeezing Gestures</span>
+              <span class="pub-authors">Xin Yi, <strong>Shuning Zhang</strong>, Ziqi Pan, Louisa Shi, Fengyan Han, Yan Kong, Hewu Li, Yuanchun Shi</span>
+              <span class="pub-venue">CHI 2023</span>
+            </li>
+            <li>
+              <span class="pub-title">Towards Benchmarking and Assessing Visual Naturalness of Physical World Adversarial Attacks</span>
+              <span class="pub-authors">Simin Li, <strong>Shuning Zhang</strong>, Gujun Chen, Dong Wang, Pu Feng, Jiakai Wang, Aishan Liu, Xin Yi, Xianglong Liu</span>
+              <span class="pub-venue">CVPR 2023</span>
+            </li>
+          </ol>
+        </section>
+
+        <section id="experience" class="section">
+          <h2>Education and Experience</h2>
+          <div class="entry">
+            <div class="entry-date">2023 - Present</div>
+            <div>
+              <h3>Tsinghua University</h3>
+              <p>Ph.D. student, Institute for Network Sciences and Cyberspace.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="entry-date">2019 - 2023</div>
+            <div>
+              <h3>Tsinghua University</h3>
+              <p>Bachelor of Computer Science and Technology.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="entry-date">2025</div>
+            <div>
+              <h3>Tencent CDG</h3>
+              <p>Research internship on multi-agent retrieval and generation frameworks for Text2SQL and Text2DSL.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="entry-date">2024</div>
+            <div>
+              <h3>ByteDance</h3>
+              <p>Research internship on math-solving models with process-oriented reward and rejection fine-tuning.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="entry-date">2021 - 2022</div>
+            <div>
+              <h3>Stanford University, University of Washington, UCLA</h3>
+              <p>Remote research assistant roles on multimodal app development, physiological signal modeling, and NER transferability.</p>
+            </div>
+          </div>
+        </section>
       </div>
-      <aside class="hero-card">
-        <img src="/assets/img/ShuningZhang.jpg" alt="Shuning Zhang portrait" />
-        <div class="card-body">
-          <h2>About</h2>
-          <p>I work on usable security, privacy UX, and collaborative AI systems.</p>
-        </div>
+
+      <aside class="side-column" aria-label="Additional information">
+        <section class="section compact-section">
+          <h2>News</h2>
+          <ul class="simple-list">
+            <li><span>2026.05</span> Organizing a Ubicomp 2026 workshop on privacy, security, safety, and ethics in AI.</li>
+            <li><span>2026.04</span> One first-authored and one co-authored paper accepted by Ubicomp 2026.</li>
+            <li><span>2026.01</span> Eight papers accepted to CHI 2026.</li>
+            <li><span>2025.10</span> Received the Best Student Challenge Award at Ubicomp 2025.</li>
+            <li><span>2025.09</span> Papers accepted to CSCW 2025, IMWUT 2025, and NeurIPS 2025 LAW.</li>
+          </ul>
+        </section>
+
+        <section id="awards" class="section compact-section">
+          <h2>Awards</h2>
+          <ul class="simple-list">
+            <li>National Scholarship, 2025</li>
+            <li>Ubicomp 2025 Best Student Challenge Award</li>
+            <li>ACM CCS 2025 HAIPS Workshop Distinguished Paper</li>
+            <li>IJCAI 2025 DDL Workshop Best Paper Candidate</li>
+            <li>National Scholarship, undergraduate ranking 3/210</li>
+            <li>HAODUSHU Scholarship, undergraduate ranking 1/210</li>
+          </ul>
+        </section>
+
+        <section class="section compact-section">
+          <h2>Skills</h2>
+          <p>Python, JavaScript, Java, C, human-subject studies, data analysis, and prototype development.</p>
+          <p>Languages: Chinese, English.</p>
+        </section>
       </aside>
     </section>
-
-    <section class="section news-section">
-      <div class="section-head">
-        <p class="eyebrow">Recent News</p>
-        <h2>Updates</h2>
-      </div>
-      <ul class="news-list news-list-large">
-        <li>2026.05 - We will host a workshop in Ubicomp'26 about privacy, security, safety and ethics in AI, welcome submissions!</li>
-        <li>2026.04 - One first authored paper and one co-authored paper accepted by Ubicomp'26. Congratulations to Gujun and collaborators!</li>
-        <li>2026.01 - Eight papers accepted to CHI'26.</li>
-        <li>2025.10 - Best Student Challenge Award at Ubicomp 25.</li>
-        <li>2025.09 - Papers accepted to CSCW'25, IMWUT'25, and NeurIPS'25 LAW.</li>
-        <li>2025.08 - Papers accepted to CCS'25 HAIPS and IJCAI'25 DDL.</li>
-      </ul>
-    </section>
-
-    <section class="split-section">
-      <article class="text-block">
-        <p class="eyebrow">Research</p>
-        <p>Human-AI co-creation, privacy policies, misinformation detection, deceptive speech, and AI-supported decision making.</p>
-      </article>
-      <article class="text-block">
-        <p class="eyebrow">Contact</p>
-        <p><a href="mailto:Zhang.sn314@gmail.com">Zhang.sn314@gmail.com</a></p>
-        <p><a href="https://github.com/zhangsn19">github.com/zhangsn19</a></p>
-        <p><a href="https://scholar.google.com/citations?user=MOmHKCAAAAAJ&hl=zh-CN&authuser=1">Google Scholar</a></p>
-      </article>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <p class="eyebrow">Selected Publications</p>
-        <h2>Recent papers and projects</h2>
-      </div>
-      <div class="pub-grid">
-        <article class="pub-card">
-          <img src="/assets/img/exploring.jpg" alt="Exploring collaboration paper cover" />
-          <h3>Exploring Collaboration Patterns and Strategies in Human-AI Co-creation Through the Lens of Agency</h3>
-          <p>CSCW'25</p>
-        </article>
-        <article class="pub-card">
-          <img src="/assets/img/opg.jpg" alt="Automated vehicle suggestions paper cover" />
-          <h3>Actual Achieved Gain and Optimal Perceived Gain: Modeling Human Take-over Decisions Towards Automated Vehicles' Suggestions</h3>
-          <p>CHI'25</p>
-        </article>
-        <article class="pub-card">
-          <img src="/assets/img/captcha.jpg" alt="PrivCAPTCHA paper cover" />
-          <h3>PrivCAPTCHA: Interactive CAPTCHA to Facilitate Effective Comprehension of APP Privacy Policy</h3>
-          <p>CHI'25</p>
-        </article>
-        <article class="pub-card">
-          <img src="/assets/img/darkpattern.jpg" alt="Voice characteristics paper cover" />
-          <h3>The Manipulative Power of Voice Characteristics: Investigating Deceptive Patterns in Mandarin Chinese Female Synthetic Speech</h3>
-          <p>IMWUT'25</p>
-        </article>
-        <article class="pub-card">
-          <img src="/assets/img/privacyvaluation.jpg" alt="Privacy valuation paper cover" />
-          <h3>Evaluating the Privacy Valuation of Personal Data on Smartphones</h3>
-          <p>IMWUT'24</p>
-        </article>
-        <article class="pub-card">
-          <img src="/assets/img/squeezIn.png" alt="Squeez'In paper cover" />
-          <h3>Squeez'In: Private authentication on smartphones based on squeezing gestures</h3>
-          <p>CHI'23</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <p class="eyebrow">Experience</p>
-        <h2>Education and internships</h2>
-      </div>
-      <div class="timeline">
-        <article class="timeline-item">
-          <h3>Tsinghua University</h3>
-          <p>Ph.D. student, Institute for Network Sciences and Cyberspace · 2023-present</p>
-        </article>
-        <article class="timeline-item">
-          <h3>Tsinghua University</h3>
-          <p>B.S. in Computer Science and Technology · 2019-2023</p>
-        </article>
-        <article class="timeline-item">
-          <h3>Stanford, UW, UCLA</h3>
-          <p>Research internships on multimodal systems, emotion classification, and NER transferability.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <p class="eyebrow">Recognition</p>
-        <h2>Awards</h2>
-      </div>
-      <ul class="awards-list">
-        <li>Ubicomp 2025 Best Student Challenge Award</li>
-        <li>ACM CCS 2025 HAIPS Workshop, Distinguished Paper Award</li>
-        <li>IJCAI 2025 Deepfake Detection, Localization and Interpretation Challenge Best Paper Candidate</li>
-        <li>National Scholarship (2025)</li>
-      </ul>
-    </section>
   </main>
+
+  <footer class="footer">
+    <p>Last updated August 2026.</p>
+  </footer>
 </body>
 </html>

@@ -213,6 +213,7 @@ h3 {
 .pub-authors,
 .pub-venue {
   display: block;
+  overflow-wrap: anywhere;
 }
 
 .pub-title {
